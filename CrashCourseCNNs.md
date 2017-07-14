@@ -1,4 +1,10 @@
-# Deep Learning, ANNs, CNNs... what's all the rage? 
+---
+layout: post
+title: "Deep Learning Crash Course"
+date: 2017-07-14
+author:
+ - abbiepopa
+---
 
 If you have a twitter feed like mine (i.e., nerdy) you can hardly go a day without seeing some mention of "deep learning." In fact a quick glance at google anayltics 
 shows that searches for deep learning have been rising over the past 5 years. I included "linear regression" to have a point of comparison. (You'll note the famous 
@@ -11,7 +17,7 @@ So what's all the fuss about? Here, I will offer resources that form a crash cou
  
 If you want to skip my commentary see the last section of this post.
 
-# Toward a conceptual understanding
+# Deep Learning, ANNs, CNNs... what's all the rage? 
 
 To start, some vocabulary. Deep learning refers to a branch of [artificial neural networks](https://ujjwalkarn.me/2016/08/09/quick-intro-neural-networks/), so let's 
 start there. Artificial neural networks (ANNs) consist of an input layer that gathers your data into the network, hidden layers that perform transformations on the data, and an
@@ -49,7 +55,8 @@ something that is easy to understand (like the examples I have been giving).
 
 ANNs can be used for just about any prediction you want to make where you have a training set (in other words, it's supervised learning). CNNs particularly have been used
  for image classification. Though they can be used on other high dimensional data, and I am more and more seeing them applied to other applications including natural language
- processing, and training AI to play video games!
+ processing, and training AI to play video games! The reason you might not be using ANNs with your own data is in general to get a high degree of accuracy you need a lot of
+ data, whereas regression still works with (relatively) small datasets.
 
 # Play-around Sites
 
