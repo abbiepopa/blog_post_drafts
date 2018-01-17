@@ -4,8 +4,8 @@ I recently predicted grocery sales for a [kaggle competition](https://www.kaggle
 In this competition, we were responsible for using data from six tables to predict how many units of different items
 would sell on future dates. This competitions presented several challenges, including merging multiple tables, working with
 a data frame that was larger than RAM, and working with categorical variables that had many classes. This is part one, where
-I discuss how I dealt with the large data frame. I will discuss my handling of categorical variables in
-part 2, which can be found [here](my cool url that hasn't been made yet).
+I discuss how I dealt with the large data frame. I will discuss my handling of categorical variables with h2o in
+part 2. I will update this post with a link when part 2 is available.
 
 If you want to see my work, my notebooks can be found [here](https://github.com/abbiepopa/kaggle_grocery/tree/master/scripts).
 
@@ -43,7 +43,7 @@ is running properly. Later you can run your script on the full training data on 
 
 The second resource I would like to highlight is dask.
 
-![alt text|612x627, 20%](https://dask.readthedocs.io/en/latest/_images/dask_horizontal.svg "Dask's horizontal logo")
+![alt text|627x612, 20%](https://dask.readthedocs.io/en/latest/_images/dask_horizontal.svg "Dask's horizontal logo")
 
 I originally heard of dask with regard to its distributing computing scheduling capabilities, but dask also provides
 collections for bigger data sets. These work by "under the hood" breaking the data into multiple parallel collections. 
