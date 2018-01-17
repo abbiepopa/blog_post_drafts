@@ -6,8 +6,6 @@ author:
  - abbiepopa
 ---
 
-# What I learned from Kaggle's Grocery Prediction Competition
-
 I recently predicted grocery sales for a [kaggle competition](https://www.kaggle.com/c/favorita-grocery-sales-forecasting).
 In this competition, we were responsible for using data from six tables to predict how many units of different items
 would sell on future dates. This competitions presented several challenges, including merging multiple tables, working with
@@ -51,7 +49,7 @@ is running properly. Later you can run your script on the full training data on 
 
 The second resource I would like to highlight is dask.
 
-![alt text|627x612, 20%](https://dask.readthedocs.io/en/latest/_images/dask_horizontal.svg "Dask's horizontal logo")
+![alt text](https://dask.readthedocs.io/en/latest/_images/dask_horizontal.svg "Dask's horizontal logo")
 
 I originally heard of dask with regard to its distributing computing scheduling capabilities, but dask also provides
 collections for bigger data sets. These work by "under the hood" breaking the data into multiple parallel collections. 
