@@ -38,4 +38,19 @@ skip = sorted(random.sample(range(1,n), n-s))
 train = pd.read_csv('train.csv', skiprows = skip)
 ```
 
-yay i=t';s smaped
+Now you have a sample of training data! This is extremely useful for setting up your scripts and testing to make sure everything
+is running properly. Later you can run your script on the full training data on something like AWS cloud computing.
+
+The second resource I would like to highlight is dask.
+
+![alt text](https://dask.readthedocs.io/en/latest/_images/dask_horizontal.svg "Dask's horizontal logo")
+
+I originally heard of dask with regard to its distributing computing scheduling capabilities, but dask also provides
+collections for bigger data sets. These work by "under the hood" breaking the data into multiple parallel collections. 
+The fun part is, the dask dataframe mimics pandas, so most of your standard pandas commands will work on it. Though for 
+anything that brings the whole collection together you will have to use .compute(), taking yourself out of the dask 
+framework (though you can put the output file back into a dask collection if you need to). Dask has good documentation, so if 
+you will use it someday I recommend going to the [dask docs](https://dask.readthedocs.io/en/latest/) for all your dask needs.
+
+Even with dask it is worth noting there is only so much you can do, which is why having access to a server or using AWS can be 
+useful, however these options are outside the scope of this blogpost. You can, however, find a great tutorial [here](http://www.grant-mckinnon.com/?p=6). 
